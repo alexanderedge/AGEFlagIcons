@@ -6,32 +6,25 @@
 #
 Pod::Spec.new do |s|
   s.name             = "AGEFlagIcons"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of AGEFlagIcons."
+  s.version          = "1.0.0"
+  s.summary          = "A collection of flag images from GoSquared in a pod"
   s.description      = <<-DESC
-                       An optional longer description of AGEFlagIcons
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                      GoSquared have a great [flag set](https://www.gosquared.com/resources/flag-icons)
+                      available for use under MIT license. This pod makes it easier to include
+                      them in your projects.
                        DESC
-  s.homepage         = "http://EXAMPLE/NAME"
-  s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://www.gosquared.com/resources/flag-icons"
+  s.screenshots      = "https://www.gosquared.com/resources/flag-icons"
   s.license          = 'MIT'
   s.author           = { "Alexander Edge" => "alex@alexedge.co.uk" }
-  s.source           = { :git => "http://EXAMPLE/NAME.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/EXAMPLE'
+  s.source           = { :git => "http://github.com/alexanderedge/AGEFlagIcons.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/alexedge'
 
-  # s.platform     = :ios, '5.0'
-  # s.ios.deployment_target = '5.0'
-  # s.osx.deployment_target = '10.7'
   s.requires_arc = true
-
-  s.source_files = 'Classes'
+  s.platform = :ios
+  s.source_files = 'Categories/ios'
   s.resources = 'Assets/*.png'
 
-  s.ios.exclude_files = 'Classes/osx'
-  s.osx.exclude_files = 'Classes/ios'
-  # s.public_header_files = 'Classes/**/*.h'
-  # s.frameworks = 'SomeFramework', 'AnotherFramework'
-  # s.dependency 'JSONKit', '~> 1.4'
+  s.ios.framework = 'UIKit'
+  
 end

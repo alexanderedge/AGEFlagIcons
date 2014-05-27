@@ -14,10 +14,10 @@ Pod::Spec.new do |s|
                       them in your projects.
                        DESC
   s.homepage         = "https://www.gosquared.com/resources/flag-icons"
-  s.screenshots      = "https://www.gosquared.com/resources/flag-icons"
+  s.screenshots      = "https://static.gosquared.com/images/resources/flagpreview.png"
   s.license          = 'MIT'
   s.author           = { "Alexander Edge" => "alex@alexedge.co.uk" }
-  s.source           = { :git => "http://github.com/alexanderedge/AGEFlagIcons.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/alexanderedge/AGEFlagIcons.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/alexedge'
 
   s.requires_arc = true

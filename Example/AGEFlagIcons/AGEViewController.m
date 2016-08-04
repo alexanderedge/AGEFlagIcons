@@ -7,9 +7,10 @@
 //
 
 #import "AGEViewController.h"
+#import <AGEFlagIcons/UIImage+AGEFlags.h>
 
 @interface AGEViewController ()
-
+@property (nonatomic, weak) IBOutlet UIImageView *imageView;
 @end
 
 @implementation AGEViewController
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    UIImage *image = [UIImage age_flagForRegion:[[NSLocale currentLocale] objectForKey:NSLocaleCountryCode]];
+    self.imageView.image = image;
 }
 
 - (void)didReceiveMemoryWarning

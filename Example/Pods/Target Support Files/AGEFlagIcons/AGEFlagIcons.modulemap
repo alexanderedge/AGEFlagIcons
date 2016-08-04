@@ -1,0 +1,6 @@
+framework module AGEFlagIcons {
+  umbrella header "AGEFlagIcons-umbrella.h"
+
+  export *
+  module * { export * }
+}

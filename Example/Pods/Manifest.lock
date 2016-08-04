@@ -1,0 +1,16 @@
+PODS:
+  - AGEFlagIcons (1.1.0)
+
+DEPENDENCIES:
+  - AGEFlagIcons (from `../`)
+
+EXTERNAL SOURCES:
+  AGEFlagIcons:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AGEFlagIcons: 459c21d42ed95caae608ff81cac2dce759bd0a84
+
+PODFILE CHECKSUM: bea8615741f9d805f38af5cbf0150c48a3d44618
+
+COCOAPODS: 1.0.1

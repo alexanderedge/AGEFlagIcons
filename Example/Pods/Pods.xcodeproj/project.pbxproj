@@ -1,0 +1,834 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D3CD2E0C59B16DE149681EB4A2207EA /* AGEFlagIcons-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B11791A49480AE990F72E69ACE9EF1FC /* AGEFlagIcons-dummy.m */; };
+		37953BE47EE186D3F650D314A6F67AE7 /* UIImage+AGEFlags.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD5EB92A61180B6B9236E79618C4914 /* UIImage+AGEFlags.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		712DDD790A4AD0C80305106E5198CE78 /* Pods-AGEFlagIcons_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E442393C2E9F26F760C7FF3B6D79994 /* Pods-AGEFlagIcons_Tests-dummy.m */; };
+		8ECE116A884B83815942091A22788807 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		B60BCDB196D5DE12AEF6D54FA73F922C /* Pods-AGEFlagIcons_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBD3242E813B8E920B517B3ADA3595 /* Pods-AGEFlagIcons_Example-dummy.m */; };
+		B6B864A79E9B7542B200D527890A9B11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		BD32B534FC6C7C3A117E7B835F1E654D /* AGEFlagIcons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F0FA2701D92EBD610F054A5DAD046ECF /* AGEFlagIcons.bundle */; };
+		C214EAEABF70AABB3E7A983AD6066277 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		C945F9C84DC29A05E61F563EA798DC53 /* AGEFlagIcons-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D92A698CA1C74EB6601C2D9B145AC598 /* AGEFlagIcons-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D019C8D2FE843352B8EBD4C9601144B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
+		DE96C3F81D5390FD008C1C56 /* Flags.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01B97CD4685C85C7EF388E2306530724 /* Flags.xcassets */; };
+		E12B560134E8634E4EDF0AC71A256F49 /* Pods-AGEFlagIcons_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45FDA64EF47CA4E55904C0ABD5BC4799 /* Pods-AGEFlagIcons_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE5E14BA37ACF555298D1CA52A3A6E3C /* UIImage+AGEFlags.m in Sources */ = {isa = PBXBuildFile; fileRef = 077088AD24EAFDF6B58CB4283E1B4737 /* UIImage+AGEFlags.m */; };
+		F8802BDBF3225EB4906151A3259AF0C0 /* Pods-AGEFlagIcons_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B507975171417A2AEC1EBA81177B61D2 /* Pods-AGEFlagIcons_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B5884EFD7FB35C1ACD615531F538853 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 384E9DA0206E99F4B48EAA6F828B2348;
+			remoteInfo = "AGEFlagIcons-AGEFlagIcons";
+		};
+		69B3CA4DD3A6E28EC50D5580BEF9DFC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00F4796CDDE80202BB01DA80498FE88B;
+			remoteInfo = AGEFlagIcons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01B97CD4685C85C7EF388E2306530724 /* Flags.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Flags.xcassets; sourceTree = "<group>"; };
+		077088AD24EAFDF6B58CB4283E1B4737 /* UIImage+AGEFlags.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AGEFlags.m"; sourceTree = "<group>"; };
+		0AD5EB92A61180B6B9236E79618C4914 /* UIImage+AGEFlags.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+AGEFlags.h"; sourceTree = "<group>"; };
+		0BEE1C1626531B118DC6ABD974AFDA74 /* Pods_AGEFlagIcons_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGEFlagIcons_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		118792442AB546758DD2B36841DA3B11 /* AGEFlagIcons.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGEFlagIcons.xcconfig; sourceTree = "<group>"; };
+		167B47744A9803F6E2AD6B212F12E412 /* AGEFlagIcons-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGEFlagIcons-prefix.pch"; sourceTree = "<group>"; };
+		212665341C868352A97676D33C2B037F /* Pods-AGEFlagIcons_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGEFlagIcons_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2C3F84FCDB68C6844C475E0CC0779A94 /* Pods-AGEFlagIcons_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGEFlagIcons_Tests-resources.sh"; sourceTree = "<group>"; };
+		340E31C92E008ABD1FEE0DF2B153B76F /* Pods-AGEFlagIcons_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AGEFlagIcons_Example.modulemap"; sourceTree = "<group>"; };
+		37B4CE1D5CE4492422FA8FD22D1116BE /* ResourceBundle-AGEFlagIcons-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AGEFlagIcons-Info.plist"; sourceTree = "<group>"; };
+		38CC757528B1A4C8B885C994B4CD701D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D259BFC60A4AEE1077BDE11A50AE4EC /* Pods-AGEFlagIcons_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGEFlagIcons_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3E637BAE6BF4B8D8368352F1F70B2BE9 /* Pods-AGEFlagIcons_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGEFlagIcons_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		443388958D8393FD2BE0E2B01D9FD7D1 /* Pods-AGEFlagIcons_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGEFlagIcons_Example-resources.sh"; sourceTree = "<group>"; };
+		45FDA64EF47CA4E55904C0ABD5BC4799 /* Pods-AGEFlagIcons_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AGEFlagIcons_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4E23E1E731A2D3D7D5BFD907785D9DB5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		584A005930A8365D2CBFA59004D9D12C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E442393C2E9F26F760C7FF3B6D79994 /* Pods-AGEFlagIcons_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGEFlagIcons_Tests-dummy.m"; sourceTree = "<group>"; };
+		737EBF85B2413FC486F6699B14874E80 /* Pods-AGEFlagIcons_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGEFlagIcons_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BB4EFC2D81A9B7AF54A644432496AAA /* Pods-AGEFlagIcons_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGEFlagIcons_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9BFBD3242E813B8E920B517B3ADA3595 /* Pods-AGEFlagIcons_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGEFlagIcons_Example-dummy.m"; sourceTree = "<group>"; };
+		A0B3DBA53835C787485C85D06A3B8F37 /* Pods-AGEFlagIcons_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGEFlagIcons_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A73E2E18C17B80044114B4B6F7FA469A /* AGEFlagIcons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AGEFlagIcons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9CC00AF3613C4F8E35E0BE3BF6EE3DA /* Pods-AGEFlagIcons_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGEFlagIcons_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B11791A49480AE990F72E69ACE9EF1FC /* AGEFlagIcons-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AGEFlagIcons-dummy.m"; sourceTree = "<group>"; };
+		B4FEF72D9996EFDDF9474F7255FE2DE7 /* Pods-AGEFlagIcons_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AGEFlagIcons_Tests.modulemap"; sourceTree = "<group>"; };
+		B507975171417A2AEC1EBA81177B61D2 /* Pods-AGEFlagIcons_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AGEFlagIcons_Example-umbrella.h"; sourceTree = "<group>"; };
+		BC3580EBB9087846461BFFCA928D1B36 /* Pods-AGEFlagIcons_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGEFlagIcons_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C355897F5266BF6A84E6D4601944E9E8 /* Pods-AGEFlagIcons_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGEFlagIcons_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D53742D4E7510ADDC161ADA7A3F74FD5 /* AGEFlagIcons.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AGEFlagIcons.modulemap; sourceTree = "<group>"; };
+		D92A698CA1C74EB6601C2D9B145AC598 /* AGEFlagIcons-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGEFlagIcons-umbrella.h"; sourceTree = "<group>"; };
+		E2B5B4E13992146F4565E0C11779DFFD /* Pods_AGEFlagIcons_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGEFlagIcons_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F0FA2701D92EBD610F054A5DAD046ECF /* AGEFlagIcons.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AGEFlagIcons.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F53ABAA3DE5998886F5918119CE37871 /* Pods-AGEFlagIcons_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGEFlagIcons_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EFC45213487E4E804B32394C49D0D70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B864A79E9B7542B200D527890A9B11 /* Foundation.framework in Frameworks */,
+				D019C8D2FE843352B8EBD4C9601144B0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97381D33039CF3E5D14F2B9980C7D58E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ECE116A884B83815942091A22788807 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6D81DF0ACCC5BAB48B6B2895C7743B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED24F70FC122039558F4B2D790EB98F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C214EAEABF70AABB3E7A983AD6066277 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FDC6F8DBFD1F83E3EFA982A5F7C7EC9 /* AGEFlagIcons */ = {
+			isa = PBXGroup;
+			children = (
+				DCE1387BD1EC101B9689B981EB232CEB /* Classes */,
+			);
+			path = AGEFlagIcons;
+			sourceTree = "<group>";
+		};
+		2E521DF3BA3D6597C99A6D8B14321051 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				01B97CD4685C85C7EF388E2306530724 /* Flags.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F02B5EC489C17715B0ECADB7D2B6903 /* Pods-AGEFlagIcons_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4E23E1E731A2D3D7D5BFD907785D9DB5 /* Info.plist */,
+				B4FEF72D9996EFDDF9474F7255FE2DE7 /* Pods-AGEFlagIcons_Tests.modulemap */,
+				C355897F5266BF6A84E6D4601944E9E8 /* Pods-AGEFlagIcons_Tests-acknowledgements.markdown */,
+				737EBF85B2413FC486F6699B14874E80 /* Pods-AGEFlagIcons_Tests-acknowledgements.plist */,
+				5E442393C2E9F26F760C7FF3B6D79994 /* Pods-AGEFlagIcons_Tests-dummy.m */,
+				A0B3DBA53835C787485C85D06A3B8F37 /* Pods-AGEFlagIcons_Tests-frameworks.sh */,
+				2C3F84FCDB68C6844C475E0CC0779A94 /* Pods-AGEFlagIcons_Tests-resources.sh */,
+				45FDA64EF47CA4E55904C0ABD5BC4799 /* Pods-AGEFlagIcons_Tests-umbrella.h */,
+				F53ABAA3DE5998886F5918119CE37871 /* Pods-AGEFlagIcons_Tests.debug.xcconfig */,
+				3D259BFC60A4AEE1077BDE11A50AE4EC /* Pods-AGEFlagIcons_Tests.release.xcconfig */,
+			);
+			name = "Pods-AGEFlagIcons_Tests";
+			path = "Target Support Files/Pods-AGEFlagIcons_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B704E8905D1214B16B0DBCE93C779BD3 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				D763723967239DF58047E5DFCE997211 /* Products */,
+				9903277A024951AAC98275E5E1796B0E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F3533DD9730F2A216C017B9C19A6909 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8824A78D21FA7079EC904E67A92469F5 /* AGEFlagIcons */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8824A78D21FA7079EC904E67A92469F5 /* AGEFlagIcons */ = {
+			isa = PBXGroup;
+			children = (
+				2E521DF3BA3D6597C99A6D8B14321051 /* Assets */,
+			);
+			path = AGEFlagIcons;
+			sourceTree = "<group>";
+		};
+		9903277A024951AAC98275E5E1796B0E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9B078FE3965802ACD32568BAC6C7DC5 /* Pods-AGEFlagIcons_Example */,
+				6F02B5EC489C17715B0ECADB7D2B6903 /* Pods-AGEFlagIcons_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9DE467A134960B61DCE1489A15851EB8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D53742D4E7510ADDC161ADA7A3F74FD5 /* AGEFlagIcons.modulemap */,
+				118792442AB546758DD2B36841DA3B11 /* AGEFlagIcons.xcconfig */,
+				B11791A49480AE990F72E69ACE9EF1FC /* AGEFlagIcons-dummy.m */,
+				167B47744A9803F6E2AD6B212F12E412 /* AGEFlagIcons-prefix.pch */,
+				D92A698CA1C74EB6601C2D9B145AC598 /* AGEFlagIcons-umbrella.h */,
+				584A005930A8365D2CBFA59004D9D12C /* Info.plist */,
+				37B4CE1D5CE4492422FA8FD22D1116BE /* ResourceBundle-AGEFlagIcons-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AGEFlagIcons";
+			sourceTree = "<group>";
+		};
+		B704E8905D1214B16B0DBCE93C779BD3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8A9A4A9B5634ABB9CE2BF398C25E892 /* AGEFlagIcons */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B8A9A4A9B5634ABB9CE2BF398C25E892 /* AGEFlagIcons */ = {
+			isa = PBXGroup;
+			children = (
+				1FDC6F8DBFD1F83E3EFA982A5F7C7EC9 /* AGEFlagIcons */,
+				7F3533DD9730F2A216C017B9C19A6909 /* Resources */,
+				9DE467A134960B61DCE1489A15851EB8 /* Support Files */,
+			);
+			name = AGEFlagIcons;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C9B078FE3965802ACD32568BAC6C7DC5 /* Pods-AGEFlagIcons_Example */ = {
+			isa = PBXGroup;
+			children = (
+				38CC757528B1A4C8B885C994B4CD701D /* Info.plist */,
+				340E31C92E008ABD1FEE0DF2B153B76F /* Pods-AGEFlagIcons_Example.modulemap */,
+				A9CC00AF3613C4F8E35E0BE3BF6EE3DA /* Pods-AGEFlagIcons_Example-acknowledgements.markdown */,
+				3E637BAE6BF4B8D8368352F1F70B2BE9 /* Pods-AGEFlagIcons_Example-acknowledgements.plist */,
+				9BFBD3242E813B8E920B517B3ADA3595 /* Pods-AGEFlagIcons_Example-dummy.m */,
+				9BB4EFC2D81A9B7AF54A644432496AAA /* Pods-AGEFlagIcons_Example-frameworks.sh */,
+				443388958D8393FD2BE0E2B01D9FD7D1 /* Pods-AGEFlagIcons_Example-resources.sh */,
+				B507975171417A2AEC1EBA81177B61D2 /* Pods-AGEFlagIcons_Example-umbrella.h */,
+				212665341C868352A97676D33C2B037F /* Pods-AGEFlagIcons_Example.debug.xcconfig */,
+				BC3580EBB9087846461BFFCA928D1B36 /* Pods-AGEFlagIcons_Example.release.xcconfig */,
+			);
+			name = "Pods-AGEFlagIcons_Example";
+			path = "Target Support Files/Pods-AGEFlagIcons_Example";
+			sourceTree = "<group>";
+		};
+		D763723967239DF58047E5DFCE997211 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0FA2701D92EBD610F054A5DAD046ECF /* AGEFlagIcons.bundle */,
+				A73E2E18C17B80044114B4B6F7FA469A /* AGEFlagIcons.framework */,
+				E2B5B4E13992146F4565E0C11779DFFD /* Pods_AGEFlagIcons_Example.framework */,
+				0BEE1C1626531B118DC6ABD974AFDA74 /* Pods_AGEFlagIcons_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCE1387BD1EC101B9689B981EB232CEB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0AD5EB92A61180B6B9236E79618C4914 /* UIImage+AGEFlags.h */,
+				077088AD24EAFDF6B58CB4283E1B4737 /* UIImage+AGEFlags.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
+				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		14C6997A05F704C220AECE375675A686 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12B560134E8634E4EDF0AC71A256F49 /* Pods-AGEFlagIcons_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29AB81CD8EF581C655F95BC514D3C524 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C945F9C84DC29A05E61F563EA798DC53 /* AGEFlagIcons-umbrella.h in Headers */,
+				37953BE47EE186D3F650D314A6F67AE7 /* UIImage+AGEFlags.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336895A70255ED8DB1825E6589C3FBDB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8802BDBF3225EB4906151A3259AF0C0 /* Pods-AGEFlagIcons_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00F4796CDDE80202BB01DA80498FE88B /* AGEFlagIcons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5215127EBA60F5CEF10CFA52BD6E1401 /* Build configuration list for PBXNativeTarget "AGEFlagIcons" */;
+			buildPhases = (
+				9AEF9FB33665C1A7C709661DC6A6E809 /* Sources */,
+				4EFC45213487E4E804B32394C49D0D70 /* Frameworks */,
+				173439E3335D164640401C132CD14655 /* Resources */,
+				29AB81CD8EF581C655F95BC514D3C524 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1576D989BA21582E42C42197F1F97ED1 /* PBXTargetDependency */,
+			);
+			name = AGEFlagIcons;
+			productName = AGEFlagIcons;
+			productReference = A73E2E18C17B80044114B4B6F7FA469A /* AGEFlagIcons.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0835BF9CB8F13D49B34920C48D786CCC /* Pods-AGEFlagIcons_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8B7B960ED1FAF67CC858E5F461CA995 /* Build configuration list for PBXNativeTarget "Pods-AGEFlagIcons_Tests" */;
+			buildPhases = (
+				66B3A80F11D780E0C84290E93744DCAF /* Sources */,
+				FED24F70FC122039558F4B2D790EB98F /* Frameworks */,
+				14C6997A05F704C220AECE375675A686 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AGEFlagIcons_Tests";
+			productName = "Pods-AGEFlagIcons_Tests";
+			productReference = 0BEE1C1626531B118DC6ABD974AFDA74 /* Pods_AGEFlagIcons_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		384E9DA0206E99F4B48EAA6F828B2348 /* AGEFlagIcons-AGEFlagIcons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 131EC3263EA383968EDFD2DFA2B1198D /* Build configuration list for PBXNativeTarget "AGEFlagIcons-AGEFlagIcons" */;
+			buildPhases = (
+				456F5C8DEB91ECF979A03861F338024E /* Sources */,
+				9E6D81DF0ACCC5BAB48B6B2895C7743B /* Frameworks */,
+				FE1C65E010D77F1C0D49E4567537223B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AGEFlagIcons-AGEFlagIcons";
+			productName = "AGEFlagIcons-AGEFlagIcons";
+			productReference = F0FA2701D92EBD610F054A5DAD046ECF /* AGEFlagIcons.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		3FA4ED49AB793915D2ED1D1DFC210ADD /* Pods-AGEFlagIcons_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 658E55EC9144E8095A1376B6E938E048 /* Build configuration list for PBXNativeTarget "Pods-AGEFlagIcons_Example" */;
+			buildPhases = (
+				BB2062A76EB1EE3B7F72585D85EFFC25 /* Sources */,
+				97381D33039CF3E5D14F2B9980C7D58E /* Frameworks */,
+				336895A70255ED8DB1825E6589C3FBDB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF3C7E00FE4853499D256BE904B5F8E1 /* PBXTargetDependency */,
+			);
+			name = "Pods-AGEFlagIcons_Example";
+			productName = "Pods-AGEFlagIcons_Example";
+			productReference = E2B5B4E13992146F4565E0C11779DFFD /* Pods_AGEFlagIcons_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D763723967239DF58047E5DFCE997211 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00F4796CDDE80202BB01DA80498FE88B /* AGEFlagIcons */,
+				384E9DA0206E99F4B48EAA6F828B2348 /* AGEFlagIcons-AGEFlagIcons */,
+				3FA4ED49AB793915D2ED1D1DFC210ADD /* Pods-AGEFlagIcons_Example */,
+				0835BF9CB8F13D49B34920C48D786CCC /* Pods-AGEFlagIcons_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		173439E3335D164640401C132CD14655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD32B534FC6C7C3A117E7B835F1E654D /* AGEFlagIcons.bundle in Resources */,
+				DE96C3F81D5390FD008C1C56 /* Flags.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1C65E010D77F1C0D49E4567537223B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		456F5C8DEB91ECF979A03861F338024E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B3A80F11D780E0C84290E93744DCAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712DDD790A4AD0C80305106E5198CE78 /* Pods-AGEFlagIcons_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEF9FB33665C1A7C709661DC6A6E809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D3CD2E0C59B16DE149681EB4A2207EA /* AGEFlagIcons-dummy.m in Sources */,
+				EE5E14BA37ACF555298D1CA52A3A6E3C /* UIImage+AGEFlags.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2062A76EB1EE3B7F72585D85EFFC25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60BCDB196D5DE12AEF6D54FA73F922C /* Pods-AGEFlagIcons_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1576D989BA21582E42C42197F1F97ED1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AGEFlagIcons-AGEFlagIcons";
+			target = 384E9DA0206E99F4B48EAA6F828B2348 /* AGEFlagIcons-AGEFlagIcons */;
+			targetProxy = 5B5884EFD7FB35C1ACD615531F538853 /* PBXContainerItemProxy */;
+		};
+		AF3C7E00FE4853499D256BE904B5F8E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AGEFlagIcons;
+			target = 00F4796CDDE80202BB01DA80498FE88B /* AGEFlagIcons */;
+			targetProxy = 69B3CA4DD3A6E28EC50D5580BEF9DFC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C452FC0EF19CE3B58E2C054119D43BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 212665341C868352A97676D33C2B037F /* Pods-AGEFlagIcons_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AGEFlagIcons_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AGEFlagIcons_Example/Pods-AGEFlagIcons_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AGEFlagIcons_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		490C7EBFB109157E6C963B96A600AC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC3580EBB9087846461BFFCA928D1B36 /* Pods-AGEFlagIcons_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AGEFlagIcons_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AGEFlagIcons_Example/Pods-AGEFlagIcons_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AGEFlagIcons_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEA42687AE1A1445FB8136AF75F2DF28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 118792442AB546758DD2B36841DA3B11 /* AGEFlagIcons.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AGEFlagIcons/AGEFlagIcons-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AGEFlagIcons/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AGEFlagIcons/AGEFlagIcons.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AGEFlagIcons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BFC99C81DEEF7AD617A879B2CAE96D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 118792442AB546758DD2B36841DA3B11 /* AGEFlagIcons.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AGEFlagIcons/AGEFlagIcons-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AGEFlagIcons/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AGEFlagIcons/AGEFlagIcons.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AGEFlagIcons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C6F1B66B2B7074403A7539F6D514E397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 118792442AB546758DD2B36841DA3B11 /* AGEFlagIcons.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AGEFlagIcons";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/AGEFlagIcons/ResourceBundle-AGEFlagIcons-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = AGEFlagIcons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E7DBCFA423FB6C9029D1F4392FA79EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 118792442AB546758DD2B36841DA3B11 /* AGEFlagIcons.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AGEFlagIcons";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/AGEFlagIcons/ResourceBundle-AGEFlagIcons-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = AGEFlagIcons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F28B3D171A6B21B42CEE17B81205E175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F53ABAA3DE5998886F5918119CE37871 /* Pods-AGEFlagIcons_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AGEFlagIcons_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AGEFlagIcons_Tests/Pods-AGEFlagIcons_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AGEFlagIcons_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F294D9CBDD862874EE4F641EEFC17B2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D259BFC60A4AEE1077BDE11A50AE4EC /* Pods-AGEFlagIcons_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AGEFlagIcons_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AGEFlagIcons_Tests/Pods-AGEFlagIcons_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AGEFlagIcons_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		131EC3263EA383968EDFD2DFA2B1198D /* Build configuration list for PBXNativeTarget "AGEFlagIcons-AGEFlagIcons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7DBCFA423FB6C9029D1F4392FA79EED /* Debug */,
+				C6F1B66B2B7074403A7539F6D514E397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5215127EBA60F5CEF10CFA52BD6E1401 /* Build configuration list for PBXNativeTarget "AGEFlagIcons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC99C81DEEF7AD617A879B2CAE96D98 /* Debug */,
+				BEA42687AE1A1445FB8136AF75F2DF28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		658E55EC9144E8095A1376B6E938E048 /* Build configuration list for PBXNativeTarget "Pods-AGEFlagIcons_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C452FC0EF19CE3B58E2C054119D43BB /* Debug */,
+				490C7EBFB109157E6C963B96A600AC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8B7B960ED1FAF67CC858E5F461CA995 /* Build configuration list for PBXNativeTarget "Pods-AGEFlagIcons_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28B3D171A6B21B42CEE17B81205E175 /* Debug */,
+				F294D9CBDD862874EE4F641EEFC17B2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -31,7 +31,7 @@ This is a pod containing GoSquared's flag icons (https://www.gosquared.com/resou
     'AGEFlagIcons' => ['AGEFlagIcons/Assets/Flags.xcassets']
   }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'AGEFlagIcons/Classes/**/*.h'
   s.frameworks = 'UIKit'
 
 end

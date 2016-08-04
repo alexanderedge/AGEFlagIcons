@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AGEFlagIcons_Example' do
+  pod 'AGEFlagIcons', :path => '../'
+
+  target 'AGEFlagIcons_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
